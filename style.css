@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#cabecalho {
+    background-color: rgb(57, 75, 69);
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+#lista {
+    display: flex;
+}
+
+#lista li {
+    margin-right: 20px;
+}
+
+#lista li a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#lista li a:hover {
+    color: white;
+    transition: 1s;
+}
+
+#sessao1 {
+    background-image: url(imagens/perfume.jpg);
+    text-align: center;
+}
+
+#sessao1 img{
+    width: 20rem;
+    height: 30rem;
+    padding: 20px;
+}
+
+#tituloh1 {
+    text-align: center;
+    background-color: rgb(71, 75, 65);
+}
+
+#sessao2 div img{
+    width: 300px;
+    height: 370px;
+}
+
+#tresimagens {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sessao3 img {
+    width: 300px;
+    height: 370px;
+}
+
+#perfume4 {
+    display: flex;
+}
