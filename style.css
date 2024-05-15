@@ -30,8 +30,10 @@
 }
 
 #sessao1 {
-    background-image: url(imagens/perfume.jpg);
+    background-image: url(imagens/gradiente.png);
+    background-repeat: no-repeat;
     text-align: center;
+    background-size: 100%;
 }
 
 #sessao1 img{
@@ -45,21 +47,50 @@
     background-color: rgb(71, 75, 65);
 }
 
-#sessao2 div img{
-    width: 300px;
-    height: 370px;
+#sessao2{
+    padding: 5rem;
 }
 
 #tresimagens {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-#sessao3 img {
-    width: 300px;
-    height: 370px;
+.caixa {
+    width: 20rem;
+    height: 22rem;
+}
+
+.caixa p{
+    text-align: left;
+    font-size: 20px;
+}
+
+.caixa img {
+   width: 100%; 
+   height: 100%;
+}
+
+#sessao3 {
+    padding: 15rem;
 }
 
 #perfume4 {
     display: flex;
+    justify-content: space-around;
+}
+
+.caixa2 {
+    width: 20rem;
+    height: 20rem;
+}
+
+.caixa2 img{
+    width: 100%;
+    height: 50%;
+}
+
+.line {
+    width: 150px;
+    
 }
