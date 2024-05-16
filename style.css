@@ -48,7 +48,11 @@
 }
 
 #sessao2{
+    background-image: url(https://img.freepik.com/fotos-gratis/borrao-de-luxo-abstrato-gradiente-de-cor-cinza-usado-como-parede-de-estudio-de-fundo-para-exibir-seus-produtos_1258-52609.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1710115200&semt=ais);
+    background-repeat: no-repeat;
     padding: 5rem;
+    background-size: 100%;
+    height: 30rem;
 }
 
 #tresimagens {
@@ -72,7 +76,11 @@
 }
 
 #sessao3 {
-    padding: 15rem;
+    background-image: url(https://st3.depositphotos.com/3930503/12491/i/450/depositphotos_124915376-stock-photo-abstract-background-empty-space-text.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem;
+    height: 20rem;
 }
 
 #perfume4 {
@@ -80,9 +88,10 @@
     justify-content: space-around;
 }
 
+
 .caixa2 {
     width: 20rem;
-    height: 20rem;
+    height: 50rem;
 }
 
 .caixa2 img{
@@ -92,5 +101,14 @@
 
 .line {
     width: 150px;
-    
+}
+
+#rodape {
+    background-color: blue;
+    padding: 5rem;
+}
+
+.paragrafo-sessao-tres {
+    margin-top: 8rem;
+    font-size: 20px;
 }
