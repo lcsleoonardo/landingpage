@@ -30,16 +30,14 @@
 }
 
 #sessao1 {
-    background-image: url(imagens/gradiente.png);
+    background-image: url(imagens/perfume-sessao1.jpg);
     background-repeat: no-repeat;
-    text-align: center;
-    background-size: 100%;
+    padding: 28rem;
 }
 
 #sessao1 img{
-    width: 20rem;
-    height: 30rem;
-    padding: 20px;
+    background-size: 100%;
+    background-position: center;
 }
 
 #tituloh1 {
