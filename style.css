@@ -30,9 +30,10 @@
 }
 
 #sessao1 {
+    padding: 20rem;
     background-image: url(imagens/perfume-sessao1.jpg);
     background-repeat: no-repeat;
-    padding: 28rem;
+    background-size: cover;
 }
 
 #sessao1 img{
