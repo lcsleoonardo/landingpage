@@ -31,7 +31,7 @@
 
 #sessao1 {
     padding: 20rem;
-    background-image: url(imagens/perfume-sessao1.jpg);
+    background-image: url(https://img.freepik.com/fotos-gratis/perfume-masculino-de-vista-frontal-em-galho-de-arvore-seca-isolado-em-um-fundo-nu-com-espaco-livre_140725-145485.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -51,7 +51,7 @@
     background-repeat: no-repeat;
     padding: 5rem;
     background-size: 100%;
-    height: 30rem;
+    height: 40rem;
 }
 
 #tresimagens {
@@ -62,6 +62,8 @@
 .caixa {
     width: 20rem;
     height: 22rem;
+    box-shadow: 50px 50px 50px;
+    border-radius: 10rem;
 }
 
 .caixa p{
@@ -72,14 +74,15 @@
 .caixa img {
    width: 100%; 
    height: 100%;
+   border-radius: 10rem;
 }
 
 #sessao3 {
     background-image: url(https://st3.depositphotos.com/3930503/12491/i/450/depositphotos_124915376-stock-photo-abstract-background-empty-space-text.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10rem;
-    height: 20rem;
+    padding: 20rem;
+    height: 10rem;
 }
 
 #perfume4 {
@@ -110,4 +113,23 @@
 .paragrafo-sessao-tres {
     margin-top: 8rem;
     font-size: 20px;
+}
+
+.formulario {
+    text-align: center;
+    padding: 5rem;
+}
+
+#sessao4 {
+    background: rgb(51,84,91);
+    background: linear-gradient(9deg, rgba(51,84,91,1) 8%, rgba(131,152,159,1) 36%, rgba(195,201,208,1) 57%);
+}
+
+.formulario input {
+    width: 20rem;
+    height: 3rem;
+}
+
+.formulario label {
+    font-size: 2rem;
 }
